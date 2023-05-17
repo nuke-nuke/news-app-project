@@ -13,14 +13,14 @@ interface ApiService {
     @GET("v2/top-headlines")
     suspend fun getNews(
         @Query("country")
-        countryCode: String = "ke",
+        countryCode: String = "us",
         @Query("apiKey")
         apiKey: String = API_Key
     ): Response<NewsResponse>
 
     @GET("v2/top-headlines")
     suspend fun getTopHeadlines(
-        @Query("country") country: String = "ke",
+        @Query("country") country: String = "us",
         @Query("category") category: String = categories.first(),
         @Query("page") page: Int = 1,
         @Query("apiKey") apiKey: String = API_Key,
@@ -28,7 +28,7 @@ interface ApiService {
 
     @GET("/v2/sources")
     suspend fun getSourcesNews(
-        @Query("country") country: String = "ke",
+        @Query("country") country: String = "us",
         @Query("apiKey") apiKey: String = API_Key,
     ): Response<SourceResponse>
 
