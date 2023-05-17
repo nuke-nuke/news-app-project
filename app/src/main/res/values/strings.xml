@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+
+    <string name="hint_search">Search…</string>
+    <string name="daily_news">For You</string>
+    <string name="headlines">Headlines</string>
+    <string name="source">Source</string>
+    <string name="saved">Saved</string>
+    <string name="source_image">Source Image</string>
+    <string name="text_ui_mode">UI Mode</string>
+    <string name="sample_news_desc">People are often put in a jam when they are asked a
+        question that they don\'t fully understand,
+        and try to talk their way out of it as they don\'t wish to reveal that they.</string>
+    <string name="save_news">Save news</string>
+    <string name="share_news">Share</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

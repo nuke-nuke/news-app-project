@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "938770318099",
+    "project_id": "newsapp-4d72b",
+    "storage_bucket": "newsapp-4d72b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938770318099:android:65d27fcd71a45c5025d0e6",
+        "android_client_info": {
+          "package_name": "com.arvind.newsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938770318099-pkjdc0g9knpsj9e7c2h4f2unjccevr6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr3hEn3-K2lwgC5NOIfNPhZbr2rfxjXTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938770318099-pkjdc0g9knpsj9e7c2h4f2unjccevr6h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
